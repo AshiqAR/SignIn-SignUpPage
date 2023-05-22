@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --c1 : #920000;
+    --c2 : #180707;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient((linear, 0% 0%, 0% 100%, from#920000), to#180707);
+    background: -webkit-linear-gradient(top, #920000, #180707);
+    background: -moz-linear-gradient(top, #920000, #180707);
+    background: -ms-linear-gradient(top, #920000, #180707);
+    background: -o-linear-gradient(top, #920000, #180707);
+    background: linear-gradient(top, #920000, #180707);
+}
+
+.container{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 60px auto;
+    background-color: rgb(0 0 0 / 51%);
+    color: white;
+    box-shadow: 0px 0px 6px 3px #222222;
+    ;
+}
+
+.container h1{
+    text-align: center;
+    padding: 2px 0px;
+    margin-top: 1px;
+    margin-bottom: 4px;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+}
+
+form label{
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+.a-tagdiv{
+    display: flex;
+    justify-content: end;
+}
+
+form a{
+    text-align: end;
+    font-size: 12px;
+    color: #b8a6ff;
+    padding: 2px ;
+    margin-right: 9px;
+}
+
+form a:hover{
+    color: #7d5efc;
+}
+
+form input{
+    height: 20px;
+    margin: 4px 1px;
+    padding: 3px 8px;
+    border-radius: 18px;
+    border: 1px solid black;
+    font-weight: 400;
+    background-color: #e3e3e3cc;
+}
+form input:focus{
+    outline: none;
+    background-color: rgb(243, 251, 255);
+    box-shadow: 0px 0px 2px 1px #920000;
+}
+
+form input:hover{
+    outline: none;
+    background-color: rgb(250, 254, 251);
+    
+}
+
+form{
+    margin: 10px 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-btn{
+    display: block;
+    width: 90px;
+    margin: 8px auto;
+    margin-top: 17px;
+    font-size: 15px;
+    height: 29px;
+    border: 1px solid transparent;
+    border-radius: 27px;
+    font-weight: medium;
+    background-color: rgb(236, 232, 228);
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition-duration: 0.6s;
+}
+
+.form-btn:hover{
+    /* color: #920000; */
+    color: white;
+    background-color: #18070700;
+    border: 2px solid white;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 2px rgba(248, 241, 241, 0.434);
+}
